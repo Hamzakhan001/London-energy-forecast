@@ -1,0 +1,153 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform.tfvars
+terraform/terraform.tfvars
+*.tfplan
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+*.pem
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data files (large datasets)
+data/*.csv
+data/*.parquet
+data/*.json
+data/raw/
+data/processed/
+*.h5
+*.hdf5
+
+# Model files (large ML models)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.model
+*.pkl
+*.joblib
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Streamlit
+.streamlit/
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# Cache
+.cache/
+*.cache
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Secrets and credentials
+secrets.json
+credentials.json
+service-account-key.json
+*.pem
+*.key
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+node_modules/
+
+config/secrets.yml
+config/production.yml
+.env.production
