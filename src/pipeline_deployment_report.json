@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-06-03T18:29:29.563875",
+  "account_id": "131201904254",
+  "region": "eu-west-1",
+  "project_name": "energy-ml",
+  "s3_buckets": {
+    "raw_data": true,
+    "processed_data": true,
+    "features": true,
+    "models": false,
+    "predictions": false
+  },
+  "kinesis_streams": {
+    "raw_data": false,
+    "processed_data": false,
+    "predictions": false
+  },
+  "iam_roles": {
+    "energy-ml-sagemaker-execution-role": false,
+    "energy-ml-lambda-execution-role": false,
+    "energy-ml-kinesis-role": false
+  },
+  "data_ingestion": true,
+  "feature_engineering": false,
+  "kinesis_streaming": false,
+  "end_to_end_pipeline": false,
+  "overall_status": "PARTIAL",
+  "ready_for_production": false
+}
